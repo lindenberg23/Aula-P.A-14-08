@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>ADICIONAR PRODUTO</h1>
+        <input type="text" name="Nome" id="inputT" placeholder="Nome">
+        <input type="number" name="Quantidade" id="inputQ" placeholder="Quantidade">
+        <input type="number" name="Preço" id="inputP" placeholder="Preço">
+        <input type="button" value="Enviar" onclick="adicionar()">
+        <h3 id="exibidorTexto"></h3>
+    </div>
+
+    <div>
+        <h1>RETIRAR PRODUTO</h1>
+        <input type="number" name="Quantidade" id="inputQe" placeholder="Quantidade">
+        <input type="button" value="Enviar" id="" onclick="retirar()">
+        <h3 id="exibidorTexto2"></h3>
+    </div>
+
+    <div>
+        <h1>LIMPAR TELA</h1>
+        <input type="button" onclick="limpar()" value="Limpar">
+    </div>
+</body>
+
+</html>
